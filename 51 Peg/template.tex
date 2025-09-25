@@ -3,7 +3,7 @@
 \usepackage{wrapfig}
 \usepackage{color}
 \usepackage{titlesec}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,colorlinks=true,linkcolor=blue]{hyperref}
 \usepackage{amsmath, amssymb}
 \newcommand{\link}[1]{{\color{blue}\href{#1}{#1}}}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} % for md conversion
@@ -13,14 +13,30 @@
 \usepackage[T1]{fontenc}
 
 % bibliography
-\usepackage[numbers,sort&compress]{natbib}
-\bibliographystyle{mnras}
-\renewcommand{\bibfont}{\footnotesize}
+% \usepackage[]{natbib}
+% \bibliographystyle{mnras}
+% \renewcommand{\bibfont}{\footnotesize}
 %%% two columns in refs
-\usepackage{multicol}
-\renewcommand{\bibpreamble}{\begin{multicols}{2}}
-\renewcommand{\bibpostamble}{\end{multicols}}
-\renewcommand\bibsection{\section*{References}}
+% \usepackage{multicol}
+% \renewcommand{\bibpreamble}{\begin{multicols}{2}}
+% \renewcommand{\bibpostamble}{\end{multicols}}
+% \renewcommand\bibsection{\section*{References}}
+
+
+
+% Pandoc CSL reference formatting (correct definitions)
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}[2]
+  {\setlength{\parindent}{0pt}%
+   \setlength{\leftskip}{0pt}%
+   \setlength{\parskip}{0pt}%
+  }
+  {}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\cslhangindent}{#1}}
+\newcommand{\CSLRightInline}[1]{#1}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 % page layout
 \usepackage[
@@ -31,7 +47,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\textcolor{red}{Eric Van Clepper\\ $title$}}
+$if(mentor)$
+    \fancyhead[L]{\textcolor{red}{ERIC VAN CLEPPER\\ $title$\\PROPOSED MENTOR: $mentor$}}
+    \setlength{\headheight}{24pt}
+$else$
+    \fancyhead[L]{\textcolor{red}{Eric Van Clepper\\ $title$}}
+$endif$
 \fancyfoot[R]{Van Clepper \thepage}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -48,8 +69,9 @@
 \titlespacing*{\subsection}
 {0.5em}{0.5em}{0em}
 
-\title{51 Peg Research}
-\author{Eric Van Clepper}
+
+\title{$title$}
+\author{$author$}
 \date{September 2025}
 
 \begin{document}

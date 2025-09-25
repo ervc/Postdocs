@@ -27,3 +27,4 @@ Adress:
 - background interests, experiences, challenges, inspiration...
 
 > A strong statement will focus on both the applicant’s past activities toward fostering a more inclusive and equitable environment as well as their future plans for doing so as a 51 Pegasi b Fellow (consider focusing on 1-3 activities from both past and future depending on level of involvement). Note that future activities and programs specific to a particular host institution should be described in that host institution’s institutional justification and not in this statement.
+
