@@ -10,3 +10,11 @@
 # jupyter notebooks
 *.DS_Store
 *.ipynb_checkpoints
+
+# No need to save bib files
+*.bib
+*.csl
+
+# other people's proposals
+51\ Peg/julia_santos*.pdf
+51\ Peg/Bergner_statement.pdf
