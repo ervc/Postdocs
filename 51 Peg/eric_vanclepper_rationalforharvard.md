@@ -1,11 +1,16 @@
 ---
-title: "RATIONAL FOR UNIVERSITY OF WISCONSIN"
-mentor : KE ZHANG
+title: "RATIONAL FOR HARVARD-SMITHSONIAN CFA"
+mentor : KARIN ÖBERG
 author: ERIC VAN CLEPPER
 ---
 
-I aim to work primarily with Dr. Ke Zhang at the University of Wisconsin Madison, who is an expert on observations of protoplanetary disk chemistry and its evolution throughout the disk lifetime.
-Professor Zhang's work with the AGE-PRO program would provide the ideal observational counterpart for my proposed research, and my work as a 51 Pegasi b fellow will coincide perfectly with the interpretation of new JWST MIRI data.
+I aim to work primarily with Dr. Karin Öberg at Harvard-Smithsonian Center for Astrophysics, who is an expert on both observations of protoplanetary disks and laboratory experiments.
+Professor Öberg's work with the MAPS data set in particular would provide an ideal observational counterpart for my theoretical work. My models will provide a framework for interpreting this molecular emission in the context of a giant planet's influence on the disk environment. 
+
+
+---
+
+Professor Öberg's work with the AGE-PRO program would provide the ideal observational counterpart for my proposed research, and my work as a 51 Pegasi b fellow will coincide perfectly with the interpretation of new JWST MIRI data.
 While my models will provide a theoretical framework for understanding volatile gas emission from evolving disks, observational data is necessary for benchmarking and constraining the results of my models.
 This combined theoretical and observational approach will provide a cohesive and comprehensive view of the chemical implications of dust evolution within disks both with and without embedded planets.
 
