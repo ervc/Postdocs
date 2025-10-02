@@ -1,6 +1,6 @@
 ---
 title: CONTRIBUTIONS TOWARDS BUILDING A DIVERSE AND INCLUSIVE FIELD
-author: Eric Van Clepper
+author: ERIC VAN CLEPPER
 ---
 
 <!-- Has the
