@@ -1,4 +1,4 @@
-# latex error files for failture in md->pdf conversion
+# latex error files for failure in md->pdf conversion
 *.aux
 *.fdb_latexmk
 *.fls
@@ -10,6 +10,9 @@
 # jupyter notebooks
 *.DS_Store
 *.ipynb_checkpoints
+
+# vscode files
+.vscode
 
 # No need to save bib files
 *.bib
