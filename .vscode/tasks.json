@@ -6,7 +6,7 @@
         {
             "label": "MakePDF",
             "type": "shell",
-            "command": "pandoc --template=51\ Peg/template.tex ${fileBasename} -o ${fileBasenameNoExtension}.pdf",
+            "command": "pandoc --template=51Peg/template.tex 51Peg/${fileBasename} -o 51Peg/${fileBasenameNoExtension}.pdf",
             "group": {
                 "kind": "build",
                 "isDefault": true
